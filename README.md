@@ -23,7 +23,7 @@ These tasks are executed in a sequence where the start task triggers the Spark j
 ## Module-Explanation
 - `spark_airflow.py`: The main Spark script which holds the SparkSubmitOperator that submits a Python Spark job.
 
-### Usage
+## Usage
 After the Docker environment is set up, the sparking_flow DAG will be available in the Airflow web UI localhost:8080, where it can be triggered manually or run on its daily schedule.
 
 The DAG will execute the following steps:
@@ -32,5 +32,4 @@ Submit the Python Spark job to the Spark cluster.
 Print "Jobs completed successfully" in the Airflow logs after all jobs have finished.
 
 ## Future-Development
-
 1) Increase the Dataset - To improve the efficiency of processing the data in Apache airflow.
